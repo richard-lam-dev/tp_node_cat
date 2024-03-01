@@ -3,18 +3,14 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-app.get("/", async (req, res) => {
-  try {
-    // Fetching data from the API
-    const response = await fetch("https://rickandmortyapi.com/api/character");
-    const data = await response.json();
+// Fetch a key api
 
-    // Sending the JSON as the response
-    res.json(data);
-  } catch (error) {
-    console.error("Error fetching data from API:", error.message);
-    res.status(500).json({ error: "Internal Server Error" });
-  }
+const response = await fetch("https://rickandmortyapi.com/api");
+
+const data = await response.json();
+
+app.get("/", (req, res) => {
+  res.json({ data });
 });
 
 app.listen(port, () => {
