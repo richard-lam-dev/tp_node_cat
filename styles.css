@@ -9,6 +9,7 @@ svg {
     width: 100%;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     margin: 5;
@@ -45,6 +46,8 @@ h1 {
 }
 
 .characters {
+
+#characters {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,6 +56,7 @@ h1 {
 
 .character {
     width: 350px;
+    width: 300px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -106,3 +110,5 @@ h1 {
     width: 1000px;
     height: 1000px;
 }
+}
+

@@ -49,6 +49,16 @@ function displayCharacters(characters) {
         // Ajouter la ligne au conteneur principal
         container.appendChild(row);
     }
+    characters.forEach(character => {
+        const element = document.createElement('div');
+        element.innerHTML = `
+            <h2>${character.name}</h2>
+            <img src='${character.image}' alt="${character.name}" style="width: 180px; height: auto;">
+            <p>Statut: ${character.status}</p>
+            <p>Espèce: ${character.species}</p>
+         `;
+        container.appendChild(element);
+    });
 }
 
 // Appeler fetchCharacters au chargement de la page
