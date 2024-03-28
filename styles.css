@@ -46,8 +46,6 @@ h1 {
 }
 
 .characters {
-
-#characters {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
