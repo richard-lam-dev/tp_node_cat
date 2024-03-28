@@ -20,8 +20,32 @@ h1 {
     text-align: center;
     margin-top: 20px;
 }
+.banniere {
+    font-weight: 500;
+    font-size: 4rem;
+}
 
-#characters {
+.character-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; /* Espace entre les lignes */
+}
+
+.character-wrapper {
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* 33.33% de largeur pour chaque colonne avec un espace de 20px entre les colonnes */
+    margin-right: 20px; /* Espace entre les colonnes */
+    margin-bottom: 20px; /* Espace entre les personnages */
+    margin-top: 20px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    box-shadow: rgba(230, 17, 17, 0.1) 0px 4px 6px -1px, rgba(250, 2, 2, 0.06) 0px 2px 4px -1px;
+    background: #373737;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.characters {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,6 +53,7 @@ h1 {
 }
 
 .character {
+    width: 350px;
     width: 300px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -45,9 +70,43 @@ h1 {
 .character h2 {
     margin-top: 0;
     font-size: 1.5rem;
+    color: white;
 }
 
 .character p {
     margin: 5px 0;
+    color: white;
+}
+
+.vitre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(60, 62, 68);
+}
+
+.vitrine {
+    display: flex;
+    width: 1920px;
+    height: auto;
+    
+}
+
+.personnage {
+    width: 50%;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.espace {
+    width: 10px;
+    height: 10px;
+}
+
+.rickimage {
+    width: 1000px;
+    height: 1000px;
+}
 }
 
