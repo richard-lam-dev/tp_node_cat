@@ -21,8 +21,12 @@ cd tp_node_rick_morty
 
 Installez les dépendances nécessaires en exécutant la commande suivante :
 
-npm install express node-fetch resend
+npm install express node-fetch resend 
 Cela installera les modules Express, Fetch de Node.js et Resend, nécessaires au bon fonctionnement de l'application.
+
+Il faut également installer dotenv 
+
+npm install dotenv --save
 
 Vous pouvez également installer nodemon (optionnel)
 
