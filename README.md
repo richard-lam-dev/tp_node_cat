@@ -5,6 +5,7 @@ Sur ce site, vous trouverez une liste des personnages de Rick et Morty que l'on 
 
 
 Installation
+
 Pour installer ce projet, suivez les étapes ci-dessous :
 
 Tout d'abord, assurez-vous que Node.js est installé sur votre système. Si ce n'est pas le cas, vous pouvez le télécharger à partir du site officiel de Node.js.
