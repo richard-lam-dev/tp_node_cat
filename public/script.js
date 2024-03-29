@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src='${character.image}' alt="${character.name}" style="width: 180px; height: auto;">
                 <p>Statut: ${character.status}</p>
                 <p>Espèce: ${character.species}</p>
+                <p>Genre: ${character.gender}</p>
+                <p>Location: ${character.location.name}</p>
             `;
 
             characterWrapper.appendChild(characterDiv);
