@@ -2,6 +2,8 @@ Rick et Morty
 
 Sur ce site, vous trouverez une liste des personnages de Rick et Morty que l'on récupère via une API : https://rickandmortyapi.com/
 
+
+
 Installation
 Pour installer ce projet, suivez les étapes ci-dessous :
 
@@ -14,6 +16,8 @@ Accédez au répertoire de votre projet :
 
 cd tp_node_rick_morty
 
+
+
 Installez les dépendances nécessaires en exécutant la commande suivante :
 
 npm install express node-fetch resend
@@ -22,6 +26,8 @@ Cela installera les modules Express, Fetch de Node.js et Resend, nécessaires au
 Vous pouvez également installer nodemon (optionnel)
 
 npm install -g nodemon
+
+
 
 Utilisation
 
