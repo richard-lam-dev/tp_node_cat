@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Projet Rick et Morty</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Projet Rick et Morty</title>
+</head>
 <body>
-  <header class="header">
-    <nav class="header">
-      <div>
-        <label for="site-search">Rechercher un Personnage</label>
-        <input type="search" id="site-search" name="q" />
-        <button>Search</button>
-      </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#characters">Personnages</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
+
   <section class="banniere">
     <h1>Personnages de Rick et Morty</h1>
-    
   </section>
- 
+  
   <section class="vitre">
     <div class="vitrine">
         <div id="characterContainer"></div>
@@ -35,21 +34,6 @@
         <div id="characterContainer"></div>
     </div>
   </section>
-
-  <!-- Formulaire d'envoi d'e-mail -->
-  <footer class="footer">
-    <h2>Contactez-nous</h2>
-    <form id="emailForm" enctype="multipart/form-data" method="POST">
-         <label for="subject">Sujet :</label>
-      <input type="text" id="subject" name="subject" required><br><br>
-      
-      <label for="message">Message :</label><br>
-      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-      
-      <button type="submit">Envoyer</button>
-    </form>
-  
-  </footer>
 
   <script src="script.js"></script>
 </body>
